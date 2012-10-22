@@ -1,0 +1,7 @@
+### BEGIN webaccess directives
+# See http://scripts.mit.edu/faq/23
+AuthUserFile /mit/techfair/web_scripts/emails/zapier/.htpasswd
+AuthName "Private"
+AuthType Basic
+Require valid-user
+### END webaccess directives
